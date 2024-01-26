@@ -1,0 +1,33 @@
+property:
+                   key and value pair is called property.
+
+Method:
+                  when we declared the function with key:value pair is kwonw as method 
+
+
+Dot notation:
+                          console.log(object.key(property name))
+
+
+Array notation:
+                              console.log(object["key"]) it is also apply  when used string as a variable 
+
+
+Update the value:
+                                  object name and property name  the value is change  is format (key :value)
+
+Delete property:
+                                delete object name.property name (delete object.firstName)
+Nested object:
+
+
+
+
+
+
+For in loop in javascript:
+
+                                                       for(var (object name) in property name){ statament1;}
+New keyword:]
+
+

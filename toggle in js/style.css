@@ -1,0 +1,27 @@
+/* .green {
+    background-color: black;
+    color: green;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+
+heading {
+    font-family: monospace;
+} */
+
+#inp{
+    outline: none;
+    color: aqua;
+}
+.parent{
+    border: 5px solid black;
+    width: 40%;
+    height: 70vh;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 70px;
+}

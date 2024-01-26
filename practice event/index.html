@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="calc">
+        <div>
+           <button onclick="clearDisplay('AC')">AC</button> 
+           <button onclick="deleteDisplay('C')">C</button> 
+           <button  onclick="getValueInput('.')">.</button> 
+           <button  onclick="getValueInput('/')">/</button> 
+        </div>
+        <div>
+            <button onclick="getValueInput('7')">7</button> 
+            <button onclick="getValueInput('8')">8</button> 
+            <button onclick="getValueInput('9')">9</button> 
+            <button onclick="getValueInput('*')">*</button> 
+         </div>
+         <div>
+            <button onclick="getValueInput('4')">4</button> 
+            <button onclick="getValueInput('5')">5</button> 
+            <button onclick="getValueInput('6')">6</button> 
+            <button onclick="getValueInput('-')">-</button> 
+         </div>
+         <div>
+            <button onclick="getValueInput('1')">1</button> 
+            <button onclick="getValueInput('2')">2</button> 
+            <button onclick="getValueInput('3')">3</button> 
+            <button onclick="getValueInput('+')">+</button> 
+         </div>
+         <div>
+            <button onclick="getValueInput('00')">00</button> 
+            <button onclick="getValueInput('0')">0</button> 
+            <button onclick="equalsDisplay('=')" class="equal">=</button> 
+         </div>
+    </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
