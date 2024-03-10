@@ -9,7 +9,10 @@
 //             para.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, natus!"
 //             btn.innerHTML = "See More"
 //         }
-//     }
+// }
+
+
+
 //     // // let getul=document.getElementById("ul")
 // // function AddValue() {
 // //     let inp = document.getElementById("inp")
@@ -321,6 +324,25 @@
 //     email:"admin@"
 // }
 // console.log("fullName" in student);
+
+
+function seeMore(ele) {
+    let para = document.getElementById("para")
+    let btn = document.getElementById("btn")
+    if (btn.innerHTML=="See More") {
+        para.innerHTML=`Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eos illo rerum suscipit tempore provident labore natus? Recusandae sint voluptatibus ad tempora beatae illo culpa labore molestiae? Et, distinctio ducimus.
+        Voluptates, ab dolores! Inventore, excepturi fuga culpa animi cum natus, nisi recusandae, deleniti neque illo expedita! Sint, error facilis dicta voluptate voluptatem dolore repellendus porro necessitatibus est sapiente nesciunt eaque.
+        Veritatis maxime, quisquam deleniti fugit facere doloribus exercitationem. Ipsa alias nemo numquam quae totam architecto minus ex, voluptatem, dignissimos natus voluptas, unde facere molestiae voluptatibus vel sit ad suscipit laudantium`
+        btn.innerHTML="Less Then"
+    }
+    else {
+        para.innerHTML = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis ea quos sapiente animi? `
+       btn.innerHTML="See More" 
+    }
+
+    console.log("hello wolrd")
+}
+
 
 
 
