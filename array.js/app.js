@@ -44,3 +44,20 @@
 // console.log(userName)
 //slice is work in string and array  slice is used to value is copy
 
+// recursive function
+const fact =(num)=>{
+if(num===0){
+return 1
+}
+
+return num * fact(num-1)
+
+}
+
+
+console.log(fact(5))
+
+
+
+
+
